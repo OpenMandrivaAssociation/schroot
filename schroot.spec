@@ -1,5 +1,5 @@
 Name: schroot
-Version: 1.4.23
+Version: 1.4.25
 Release: 1
 Summary: Execute commands in a chroot environment
 Group: Development/Other
