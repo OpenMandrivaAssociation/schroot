@@ -1,11 +1,11 @@
 Name: schroot
-Version: 1.4.25
+Version: 1.5.1
 Release: 1
 Summary: Execute commands in a chroot environment
 Group: Development/Other
 License: GPLv3+
 Url: http://packages.debian.org/schroot
-Source0: http://ftp.de.debian.org/debian/pool/main/s/schroot/%{name}_%{version}.orig.tar.bz2
+Source0: http://ftp.de.debian.org/debian/pool/main/s/schroot/%{name}_%{version}.orig.tar.xz
 Patch0: schroot-pam.patch
 Patch1: schroot-default-config-path.patch
 BuildRequires: pam-devel
