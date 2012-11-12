@@ -1,0 +1,15 @@
+--- etc/pam/schroot	2008-01-20 16:16:25.000000000 -0800
++++ etc/pam/schroot	2008-04-29 10:33:21.000000000 -0700
+@@ -26,9 +26,9 @@
+ # The standard Unix authentication modules, used with
+ # NIS (man nsswitch) as well as normal /etc/passwd and
+ # /etc/shadow entries.
+-@include common-auth
+-@include common-account
+-@include common-session
++auth               include         system-auth
++session            include         system-auth
++account            include         system-auth
+ 
+ # Sets up user limits, please uncomment and read /etc/security/limits.conf
+ # to enable this functionality.
