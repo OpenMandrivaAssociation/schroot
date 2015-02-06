@@ -1,6 +1,6 @@
 Name: schroot
 Version: 1.6.3
-Release: %mkrel 2
+Release: 3
 Summary: Execute commands in a chroot environment
 Group: Development/Other
 License: GPLv3+
