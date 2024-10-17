@@ -4,7 +4,7 @@ Release: 3
 Summary: Execute commands in a chroot environment
 Group: Development/Other
 License: GPLv3+
-URL: http://packages.debian.org/schroot
+URL: https://packages.debian.org/schroot
 Source0: http://ftp.de.debian.org/debian/pool/main/s/schroot/%{name}_%{version}.orig.tar.xz
 Patch0: schroot-pam.patch
 Patch1: schroot-default-config-path.patch
