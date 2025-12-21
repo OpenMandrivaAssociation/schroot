@@ -8,6 +8,11 @@ URL: https://packages.debian.org/schroot
 Source0: http://ftp.de.debian.org/debian/pool/main/s/schroot/%{name}_%{version}.orig.tar.xz
 Patch0: schroot-pam.patch
 Patch1: schroot-default-config-path.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pam-devel
 BuildRequires: boost-devel
 BuildRequires: lockdev-devel
